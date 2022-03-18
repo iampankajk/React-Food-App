@@ -16,4 +16,4 @@ const Header = (props) => {
     </Fragment>);
 };
 
-export default Header
+export default Header;
