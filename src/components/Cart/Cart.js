@@ -39,6 +39,7 @@ const Cart = props => {
         });
         setIsSubmitting(false);
         setDidSubmitting(true)
+        cartCtx.clearCart();
     }
 
     const cartItems = <ul className={classes['cart-items']}>{cartCtx.items.map(item=><li>
